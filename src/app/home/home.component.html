@@ -1,0 +1,112 @@
+<div class="animated fadeIn overflow-x-hidden">
+    <div class="row">
+        <div class="col-sm-6 px-0 d-flex flex-column justify-content-center px-5">
+            <img src="assets/images/logotipo-bg-white.png" alt="Logotipo" width="400" class="img-fluid">
+            <p class="text-justify">
+                En Mover S.A.S nos dedicamos al diseño, instalación, modernización y mantenimiento de ascensores,
+                escaleras
+                eléctricas y montacargas en organizaciones del sector público y privado. Nuestro compromiso en
+                ofrecer
+                bienes y servicios competitivos, acordes a las necesidades y especificaciones técnicas de nuestros
+                clientes,
+                generando satisfacción y seguridad.
+            </p>
+        </div>
+        <div class="col-sm-6 px-0">
+            <img src="assets/images/ascensores-piso-4.jpg" alt="Ascensores" class="img-fluid w-100">
+        </div>
+    </div>
+    <div class="row">
+        <!-- Products -->
+        <div class="img-container col-sm-6 px-0">
+            <figure class="image">
+                <img src="assets/images/ascensor-abierto.jpg" alt="Productos" class="img-fluid w-100">
+                <div class="container-zoom flex-column mb-4">
+                    <i class="fas fa-tags font-xl mb-2"></i>
+                    <a [routerLink]="['/productos']"
+                        class="btn btn-light text-dark font-weight-bold font-sm text-uppercase">Productos</a>
+                </div>
+            </figure>
+        </div>
+        <!-- Services -->
+        <div class="img-container col-sm-6 px-0">
+            <figure class="image">
+                <img src="assets/images/servicio-mover.jpg" alt="Servicios" class="img-fluid w-100">
+                <div class="container-zoom flex-column mb-3">
+                    <i class="far fa-handshake font-xl mb-2"></i>
+                    <a [routerLink]="['/servicios']"
+                        class="btn btn-light text-dark font-weight-bold font-sm text-uppercase">Servicios</a>
+                </div>
+            </figure>
+        </div>
+    </div>
+
+    <!-- Caruouse -->
+    <div id="section-testimonial" class="container">
+        <div class="row pt-5">
+            <div class="col-sm-12">
+                <h1 class="mx-auto h3 text-center"> Nuestros clientes nos recomiendan </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-center m-auto">
+                <div id="testimonial" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <div class="text-center mb-3">
+                                <img src="assets/images/clinica-prevenir.png" alt="clinica-prevenir-logo"
+                                    class="rounded-circle img-fluid" width="150">
+                            </div>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus
+                                nec
+                                turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus.
+                                Suspendisse varius nibh non aliquet.</p>
+                            <p class="text-center font-weight-bold text-uppercase mr-3">
+                                Clínica Bonnadona Prevenir.
+                            </p>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="text-center mb-3">
+                                <img src="assets/images/exito.png" alt="exito-logo" class="rounded-circle img-fluid"
+                                    width="70">
+                            </div>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus
+                                nec
+                                turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus.
+                                Suspendisse varius nibh non aliquet.</p>
+                            <p class="text-center font-weight-bold text-uppercase mr-3">
+                                Almacenes Éxito S.A.
+                            </p>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="text-center mb-3">
+                                <img src="assets/images/clinica-erasmo.png" alt="clinica-erasmo"
+                                    class="rounded-circle img-fluid" width="150">
+                            </div>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus
+                                nec
+                                turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus.
+                                Suspendisse varius nibh non aliquet.</p>
+                            <p class="text-center font-weight-bold text-uppercase mr-3">
+                                Clínica Erasmus.
+                            </p>
+                        </div>
+                    </div>
+                    <a class="carousel-control left carousel-control-prev" href="#testimonial" data-slide="prev">
+                        <i class="fas fa-angle-left color-black"></i>
+                    </a>
+                    <a class="carousel-control right carousel-control-next" href="#testimonial" data-slide="next">
+                        <i class="fas fa-angle-right color-black"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,20 @@
+.section-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.sticky-footer {
+    border-top: 0.5px solid #717171;
+}
+@media screen and (max-width: 570px) {
+    .company-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact-info {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

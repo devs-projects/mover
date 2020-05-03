@@ -1,0 +1,22 @@
+.product-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+    height: 100%;
+}
+.product-card-right {
+    margin-right: -300px !important;
+}
+.product-card-left {
+    margin-left: -300px !important;
+}
+@media screen and (max-width: 570px) {
+    .product-card-right {
+        margin-right: 0 !important;
+    }
+    .product-card-left {
+        margin-left: 0 !important;
+    }
+}
